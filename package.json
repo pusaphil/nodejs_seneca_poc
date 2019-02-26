@@ -1,0 +1,23 @@
+{
+  "name": "seneca_test_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "bluebird": "^3.5.1",
+    "express": "^4.16.4",
+    "express-validator": "^5.0.3",
+    "globby": "^8.0.2",
+    "lodash": "^4.17.5",
+    "restify": "^6.3.4",
+    "seneca": "^3.4.3",
+    "seneca-amqp-transport": "^2.2.0",
+    "seneca-echo": "^0.3.0"
+  }
+}
