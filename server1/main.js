@@ -20,8 +20,8 @@ let Api = new API()
 
 module.exports = Promise.props({
   httpServer: env.http.bootstrap(),
-  messageBrokerInbound: env.messageBroker.bootstrapInbound(),
-  messageBrokerOutbound: env.messageBroker.bootstrapOutbound()
+  messageBrokerOutbound: env.msgBrkr.bootstrapOutbound()
+
 }).then(environment => {
   return Api.bootstrap(environment).then(() => {
     return Promise.resolve(environment)

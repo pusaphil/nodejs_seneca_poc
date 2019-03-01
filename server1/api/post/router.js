@@ -9,7 +9,6 @@ class Router {
   }
 
   bootstrap () {
-    console.log('---------> ', this.env.httpServer)
     return new Promise(resolve => {
       this.env.httpServer.post({
         name: `test1-add`,

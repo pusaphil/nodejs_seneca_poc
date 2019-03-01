@@ -6,7 +6,7 @@ const MessageBroker = require('./message-broker')
 class Env {
   constructor () {
     this.http = new Http()
-    this.messageBroker = new MessageBroker()
+    this.msgBrkr = new MessageBroker()
   }
 }
 
